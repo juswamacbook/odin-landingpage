@@ -1,1 +1,29 @@
 /* add css styles here */
+body {
+  background-color: #1f2937;
+}
+.header {
+  display: flex;
+  justify-content: start;
+  font-weight: 900;
+  color: #f9faf8;
+  font-family: Roboto, sans-serif;
+  font-size: 24;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  gap: 16px;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+  position: relative;
+  align-items: center;
+}
