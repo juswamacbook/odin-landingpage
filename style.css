@@ -1,5 +1,5 @@
 /* add css styles here */
-body {
+body{
   background-color: #1f2937;
   font-family: Roboto, sans-serif;
 }
@@ -95,3 +95,67 @@ ul {
   box-sizing: border-box;
   margin-top: 16px;
 }
+
+.placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  background: gray;
+  color:white;
+  border: none;
+  width: 550px;
+  padding: 30px;
+  margin-left: 800px;
+  position: absolute;
+  box-sizing: border-box;
+  margin-top: 150px;
+}
+
+.random-information {
+  display:flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content:baseline;
+  align-items:baseline;
+  height: 400px;
+  width: 1500px;
+  background: #f9faf8;
+  color:#1f2937;
+  box-sizing: border-box;
+  padding: 16px;
+  margin: 16px;
+  position: absolute;
+  margin-top: 500px;
+  margin-left: -5px;
+}
+.random-information h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 1000px;
+}
+
+.box-one {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border: #3882F6;
+  width: 100px;
+  height: 100px;
+  
+}
+
+.first-box {
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
