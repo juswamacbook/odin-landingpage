@@ -1,29 +1,78 @@
 /* add css styles here */
 body {
   background-color: #1f2937;
+  font-family: Roboto, sans-serif;
 }
 .header {
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
+  align-items: center;
   font-weight: 900;
   color: #f9faf8;
-  font-family: Roboto, sans-serif;
   font-size: 24;
   position: absolute;
-  width: 100%;
   box-sizing: border-box;
 }
-.links {
+.logo {
+  width: 100%;
+  padding-left: 128px;
+}
+.nav {
   display: flex;
-  justify-content: space-between;
-  list-style-type: none;
-  gap: 16px;
-  font-size: 18px;
+
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  width: 90%;
+  box-sizing: border-box;
+  padding-right: 32px;
+
+}
+.links{
+    display: flex;
+    align-items: baseline;
+    list-style-type: none;
+    gap: 16px;
 }
 
 a {
   text-decoration: none;
   color: #e5e7eb;
+}
+
+ul {
+  display:flex;
+  list-style-type: none;
+  margin: 1;
+  padding: 0;
+  gap: 16px;
+  font-size: 18px;
+}
+
+.hero-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
   position: relative;
-  align-items: center;
+  font-size:24px;
+  color: #f9faf8;
+  font-weight: 900;
+  width: 100%;
+  padding-left: 128px;
+  height: 100vh;
+}
+
+.hero-subtext{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  box-sizing: border-box;
+  color: #e5e7eb;
+  width: 450px;
+  padding-left: 128px;
+  margin-top: -750px;
+  font-size: 11px;
+  height: 300vh;
 }
