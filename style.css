@@ -54,25 +54,44 @@ ul {
   flex-direction: column;
   justify-content: center;
   box-sizing: border-box;
-  position: relative;
+  position: absolute;
   font-size:24px;
   color: #f9faf8;
   font-weight: 900;
   width: 100%;
   padding-left: 128px;
   height: 100vh;
+  margin-top: -190px;
 }
 
 .hero-subtext{
   display: flex;
   flex-direction: column;
-  position: relative;
+  position: absolute;
   justify-content: center;
   box-sizing: border-box;
   color: #e5e7eb;
-  width: 450px;
+  width: 560px;
   padding-left: 128px;
-  margin-top: -750px;
-  font-size: 11px;
+  font-size: 18px;
   height: 300vh;
+  margin-top: -900px;
+}
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  padding: 8px 25px;
+  background-color: #3882F6;
+  color: #f9faf8;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  box-sizing: border-box;
+  margin-top: 16px;
 }
