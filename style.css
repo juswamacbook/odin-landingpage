@@ -145,6 +145,7 @@ ul {
   align-items: center;
 }
 
+
 .box-one {
   width: 180px;
   height: 180px;
@@ -178,6 +179,9 @@ ul {
   justify-content: center;
   background-color: white;
   margin-left: 600px;
+  margin-bottom: 0px;
+  position: relative;
+  top: 597px;
 }
 .second-text {
   display: flex;
@@ -186,7 +190,37 @@ ul {
   text-align: center;
   margin-left: 600px;
   color: #999b9f;
-  
+  margin-bottom: 100px;
+  position: relative;
+  top: 547px;
+  font-size: 16px;
+}
+
+.box-three {
+  width: 180px;
+  height: 180px;
+  border: 3px solid #3882F6;
+  border-radius: 15px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin-left: 600px;
+  margin-bottom: 0px;
+  position: relative;
+  top: 120px;
+}
+.third-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 600px;
+  color: #999b9f;
+  margin-bottom: 100px;
+  position: relative;
+  top: 70px;
+  font-size: 16px;
 }
 
 
