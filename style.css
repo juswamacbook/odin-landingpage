@@ -156,7 +156,9 @@ ul {
   align-items: center;
   justify-content: center;
   background-color: white;
-  margin-left: 300px;
+  margin-left: 250px;
+  position: relative;
+
 }
 
 .first-text {
@@ -164,9 +166,11 @@ ul {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-left: 300px;
+  margin-left: 250px;
   margin-top: -50px;
   color: #999b9f;
+  position: relative;
+
 }
 
 .box-two {
@@ -178,17 +182,17 @@ ul {
   align-items: center;
   justify-content: center;
   background-color: white;
-  margin-left: 600px;
+  margin-left: 490px;
   margin-bottom: 0px;
   position: relative;
-  top: 597px;
+  top: 598px;
 }
 .second-text {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-left: 600px;
+  margin-left: 490px;
   color: #999b9f;
   margin-bottom: 100px;
   position: relative;
@@ -205,23 +209,54 @@ ul {
   align-items: center;
   justify-content: center;
   background-color: white;
-  margin-left: 600px;
+  margin-left: 490px;
   margin-bottom: 0px;
   position: relative;
-  top: 120px;
+  top: 121px;
 }
 .third-text {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-left: 600px;
+  margin-left: 490px;
   color: #999b9f;
   margin-bottom: 100px;
   position: relative;
   top: 70px;
   font-size: 16px;
 }
+
+.box-four {
+  width: 180px;
+  height: 180px;
+  border: 3px solid #3882F6;
+  border-radius: 15px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin-left: 500px;
+  margin-bottom: 0px;
+  position: relative;
+  top: -355px;
+}
+.fourth-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 490px;
+  color: #999b9f;
+  margin-bottom: 100px;
+  position: relative;
+  top: -405px;
+  font-size: 16px;
+}
+
+
+
+
 
 
 
