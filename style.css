@@ -19,7 +19,6 @@ body{
 }
 .nav {
   display: flex;
-
   justify-content: flex-end;
   align-items: center;
   position: absolute;
@@ -147,17 +146,49 @@ ul {
 }
 
 .box-one {
-  width: 160px;
-  height: 160px;
+  width: 180px;
+  height: 180px;
   border: 3px solid #3882F6;
   border-radius: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   display:flex;
   align-items: center;
   justify-content: center;
   background-color: white;
+  margin-left: 300px;
 }
 
 .first-text {
-  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 300px;
+  margin-top: -50px;
+  color: #999b9f;
 }
+
+.box-two {
+  width: 180px;
+  height: 180px;
+  border: 3px solid #3882F6;
+  border-radius: 15px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin-left: 600px;
+}
+.second-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 600px;
+  color: #999b9f;
+  
+}
+
+
+
+
