@@ -74,6 +74,7 @@ ul {
   padding-left: 128px;
   font-size: 18px;
   height: 300vh;
+  width:70vh;
   margin-top: -900px;
 }
 .sign-up {
@@ -266,7 +267,7 @@ ul {
   justify-content:baseline;
   align-items:baseline;
   height: 300px;
-  width: 1800px;
+  width: 1525px;
   background: #e5e7eb;
   color:#1f2937;
   box-sizing: border-box;
@@ -301,32 +302,110 @@ ul {
   font-style:italic;
 }
 
-.call{
+.cta-background {
   display:flex;
-  flex: 1;
-  flex-wrap: wrap;
   flex-direction: column;
-  justify-content:baseline;
-  align-items:baseline;
+  justify-content: center;
+  align-items: center;
   height: 300px;
-  width: 1700px;
-  background: white;
-  color:#1f2937;
-  box-sizing: border-box;
-  padding: 16px;
-  margin: 16px;
+  width: 1520px;
+  background: #f9faf8;
   position: relative;
-  top: 892px;
-  right: -25px;
+  top: -540px;
+  right: 10px;
 }
 
-.section-blue {
+.cta-section {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+  background: #3882F6;
+  height: 80px;
+  width: 1000px;
+  color: white;
+  padding: 40px 20px;
+  border-radius: 8px;
+  max-width: 1000px;
+  border: 2px solid #3882f6; /* Optional: Add a border for definition */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
+  position: relative;
+  top: -770px;
+  right: 110px;
+  left: 225px;
+}
+
+
+.cta-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.cta-text h3 {
   display:flex;
   align-items: center;
-  justify-content: center;
+  justify-content:space-between;
+  font-size: 28px;
+  position: relative;
+  right: 100px;
+  
 }
 
+.cta-text p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  font-size: 18px;
+  opacity: 0.9;
+  position: relative;
+  top:-20px;
+  left: -100px;
+}
 
+.cta-button {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 8px 32px;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  top: -10px;
+  right: 280px;
+  bottom: -10px;
+}
+
+.cta-button:hover {
+  display:flex;
+  align-items: baseline;
+  justify-content: baseline;
+  flex-direction: column;
+  background: white;
+  color: #3882f6;
+  position: relative;
+}
+
+/* Footer */
+.footer {
+    background: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: auto;
+}
 
 
 
