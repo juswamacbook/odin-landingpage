@@ -265,24 +265,24 @@ ul {
   flex-direction: column;
   justify-content:baseline;
   align-items:baseline;
-  height: 400px;
-  width: 1700px;
+  height: 300px;
+  width: 1800px;
   background: #e5e7eb;
   color:#1f2937;
   box-sizing: border-box;
   padding: 16px;
   margin: 16px;
-  position: absolute;
-  top: 892px;
-  right: -25px;
+  position: relative;
+  top: -520px;
+  right: 25px;
 }
 
 .message {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: baseline;
+  align-items: baseline;
   width: 50%;
-  font-size: 36;
+  font-size: 36px;
   position: relative;
   left: 300px;
   top: 80px;
@@ -299,7 +299,31 @@ ul {
   left: 900px;
   top: 100px;
   font-style:italic;
+}
 
+.call{
+  display:flex;
+  flex: 1;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content:baseline;
+  align-items:baseline;
+  height: 300px;
+  width: 1700px;
+  background: white;
+  color:#1f2937;
+  box-sizing: border-box;
+  padding: 16px;
+  margin: 16px;
+  position: relative;
+  top: 892px;
+  right: -25px;
+}
+
+.section-blue {
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
